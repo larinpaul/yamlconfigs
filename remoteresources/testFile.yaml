@@ -1,0 +1,10 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:jwk-set-uri: ${oauth2-client.openid-connect-uti}/certs
+      client:
+        registration:
+          authorization-code:
+            provider: keycloak
+            authorization-grant-type: authorization_code
