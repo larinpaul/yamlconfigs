@@ -1,0 +1,5 @@
+app:
+  ftp:
+    port1: 11
+  sftp:
+    host22: 2.2.2.2
